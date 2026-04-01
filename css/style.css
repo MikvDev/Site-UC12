@@ -1,0 +1,145 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-primaria: 'Inter', 'sanserif';
+     /* Tons Neutros e Escuros */
+  --cor-grafite-profundo: #14233a;
+  --cor-cinza-escuro: #303843;
+  --cor-marrom-escuro: #3d3333;
+  --cor-marrom-terroso: #734c44;
+  --cor-cinza-azulado: #405273;
+  
+  /* Tons de Marrom e Terracota */
+  --cor-vinho-suave: #593e47;
+  --cor-rosado-queimado: #7a5859;
+  --cor-terracota: #b55945;
+  --cor-madeira: #a57855;
+  --cor-pedra: #636663;
+  --cor-concreto: #87857c;
+  --cor-areia: #bcad9f;
+
+  /* Tons de Laranja, Amarelo e Creme */
+  --cor-laranja-vibrante: #eb9661;
+  --cor-laranja-suave: #f2b888;
+  --cor-dourado: #de9f47;
+  --cor-amarelo-sol: #fdd179;
+  --cor-creme-claro: #fee1b8;
+  --cor-palha: #d4c692;
+
+  /* Tons de Verde */
+  --cor-verde-floresta: #2f4d2f;
+  --cor-verde-musgo: #44702d;
+  --cor-verde-oliva: #819447;
+  --cor-verde-pistache: #a6b04f;
+  --cor-verde-natural: #546756;
+  --cor-verde-folha: #89a477;
+  --cor-verde-claro: #a4c5af;
+
+  /* Tons de Azul e Gelo */
+  --cor-azul-profundo: #6c81a1;
+  --cor-azul-medio: #96a9c1;
+  --cor-azul-acinzentado: #bbc3d0;
+  --cor-gelo-escuro: #d5d6db;
+  --cor-menta-claro: #cae6d9;
+  --cor-branco-sujo: #f1f6f0;
+    
+
+}
+@font-face {
+    font-family: 'StardewValley';
+    src: url(/assets/img/fonts/svthin.otf.woff2) format('woff2');
+    font-weight: normal;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'StardewValley', sans-serif;
+    background-image: url("/assets/img/stardewvalleyFundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .pesquisar {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav .user {
+    margin-left: 40px;
+
+    
+}
+header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 10px 50px 10px 30px;
+    align-items: center;
+   justify-content: center;
+    
+}
+nav img {
+    width: 60%;
+}
+.banner{
+    background-image: url(/assets/img/game.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 90px;
+    height: 500px;
+    width: 50%;
+}
+
+header ul  {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+header ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--cor-verde-musgo);
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    text-align: center; 
+}
+.icons{
+    gap: 30px;
+}
+
+.icon img{
+    border-radius: 100%;
+    
+
+}
