@@ -96,12 +96,17 @@ nav img {
     width: 60%;
 }
 .banner{
-    background-image: url(/assets/img/game.jpg);
+    background-image: url(/assets/img/banner2.avif);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     margin-top: 90px;
     height: 500px;
-    width: 50%;
+    width: 80%;
+     image-rendering: pixelated;
+  box-shadow:
+    0 0 0 4px #000,
+    4px 4px 0 4px #555;
 }
 
 header ul  {
@@ -131,7 +136,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 60vh;
     text-align: center; 
 }
 .icons{
@@ -143,3 +148,12 @@ a {
     
 
 }
+.icon-borda-1 img {
+    border: var(--cor-grafite-profundo) 2px solid;
+    border-radius: 100%;
+}
+.icon-borda-2 img {
+    border: var(--cor-terracota) 2px solid;
+    border-radius: 100%;
+}
+
